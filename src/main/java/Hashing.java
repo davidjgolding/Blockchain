@@ -16,6 +16,8 @@ import java.util.Base64;
 public class Hashing {
 
   /** Method to produce SHA256 hash for a byte array.
+   * This method is adapted from https://stackoverflow.com/questions/5531455/how
+   * -to-hash-some-string-with-sha256-in-java.
    *
    * @param block where data is an array of bytes.
    * @return A byte array containing the SHA256 hash of the String given.
@@ -35,6 +37,8 @@ public class Hashing {
   }
 
   /** Method to produce convert a byte hash to a string hash.
+   * This method is adapted from https://www.mkyong.com/java/java-sha-hashing-ex
+   * ample.
    *
    * @param bytes where bytes is the hash in an array of bytes.
    * @return A String containing the SHA256 hash of the bytes given.
@@ -50,6 +54,8 @@ public class Hashing {
   }
 
   /** Method to convert the blocks content to an array of bytes.
+   * This method is adapted from https://stackoverflow.com/questions/2836646/jav
+   * a-serializable-object-to-byte-array.
    *
    * @return An array of bytes.
    */
